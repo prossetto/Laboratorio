@@ -1,0 +1,18 @@
+/*
+El modelo de css es Selector + propiedad+ valor */
+
+/* el formato es 
+Selector {
+propiedad: valor
+}
+*/ 
+p {
+    color: rgb(33, 33, 182);
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+p {text-align: center;}
+h1 {
+    color: rgba(9, 13, 236, 0.829)
+}
