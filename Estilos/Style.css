@@ -6,10 +6,32 @@ Selector {
 propiedad: valor
 }
 */ 
+.charm-bold {
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 p {
     color: #2b2b2b;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
     background: linear-gradient(to bottom right,#5bbde4, #9b9b9b)
+}
+header { 
+    font-family: "charm", serif;
+    
+}
+h1{
+    font-family: "Charm", serif;
+    text-decoration: underline;
+    text-indent: 1%;
+    color:#000000 ;
+    font-size: 48px;
+    text-align: center;
+    }
+footer{
+    text-align: end;
+    background: linear-gradient(to bottom right,#9b9b9b, #5bbde4);
+    font-family: "charm", serif;    
 }
