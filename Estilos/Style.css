@@ -15,9 +15,10 @@ p {
     color: #2b2b2b;
     font-family: "charm", serif;
     text-align: justify;
+    font-size: 24px;
 }
 body {
-    background: linear-gradient(to bottom right,#5bbde4, #9b9b9b)
+    background: linear-gradient(to top left,#5bbde4, #9b9b9b)
 }
 header { 
     font-family: "charm", serif;
@@ -33,6 +34,38 @@ h1{
     }
 footer{
     text-align: end;
-    background: linear-gradient(to bottom right,#9b9b9b, #5bbde4);
+    background: linear-gradient(to top right, #5bbde4, #9b9b9b);
     font-family: "charm", serif;    
 }
+.Imagen {
+    float: right;
+    margin: 15px;
+}
+footer {
+    clear: both;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: dashed;
+    font-size: 38px;
+}
+h3{
+    font-family: "charm";
+    font-size: 30px;
+}
+h4{
+    font-family: "charm";
+    font-size: 26px;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+ul+li{
+    font-family: "charm";
+}
+ul{
+    font-family: "charm";
+}
+/*Preguntar porque no me toma el ul+li*/
