@@ -7,12 +7,9 @@ propiedad: valor
 }
 */ 
 p {
-    color: rgb(33, 33, 182);
-    font-family: Arial, Helvetica, sans-serif;
-
-    }
-
-p {text-align: center;}
-h1 {
-    color: rgba(9, 13, 236, 0.829)
+    color: #2b2b2b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background: linear-gradient(to bottom right,#5bbde4, #9b9b9b)
 }
