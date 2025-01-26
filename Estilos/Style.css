@@ -67,5 +67,6 @@ ul+li{
 }
 ul{
     font-family: "charm";
+    list-style-type: none;
 }
 /*Preguntar porque no me toma el ul+li*/
