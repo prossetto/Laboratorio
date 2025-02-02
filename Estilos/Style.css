@@ -69,4 +69,7 @@ nav ul li{
     border: #000000 1px;
     justify-content: right;
 }
+nav ul{
+    display: inline-block;
+}
 /*Preguntar porque no me toma el ul+li*/
