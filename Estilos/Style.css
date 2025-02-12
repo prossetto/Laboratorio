@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-body-tertiary2{
+    background: linear-gradient(to bottom, #1995AD, #A1d6e2) ;
+}
+.active2:hover{
+    text-decoration: solid; 
+    text-decoration-color: aliceblue;
+}
