@@ -32,4 +32,8 @@
     z-index: 10; /* Asegura que la imagen esté por encima del carrusel */
     opacity: 0.8;
   }
+.pie{
+    display: flex;
+    justify-content: right;
+}
 
