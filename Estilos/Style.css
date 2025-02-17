@@ -19,8 +19,17 @@
   }
   .carousel-item img {
     width: 90%;
-    height: 100%; /* Asegura que las imágenes cubran el contenedor */
+    height: 800px; /* Asegura que las imágenes cubran el contenedor */
     object-fit: cover; /* Recorta la imagen sin distorsionarla */
   }
-
+  .overlay-image {
+    position: absolute; /* Posiciona la imagen en relación al contenedor del carrusel */
+    top: 50%; /* Centra la imagen verticalmente */
+    left: 50%; /* Centra la imagen horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la imagen para que esté centrada exactamente */
+    width: 400px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    z-index: 10; /* Asegura que la imagen esté por encima del carrusel */
+    opacity: 0.8;
+  }
 
